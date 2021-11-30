@@ -1,4 +1,10 @@
-npm init -y
+$npm init -y
 
-npm install express hbs dotenv
+$npm install express hbs dotenv
 
+En package Json :
+"scripts": {
+    "dev": "nodemon app.js",
+}
+
+$npm install axios
